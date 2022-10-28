@@ -4,6 +4,7 @@
  */
 package primerparcial;
 
+import com.mycompany.parcial.ObtenerAccion;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -23,7 +24,7 @@ public class ObtenerAccionTest {
         String n = "si";
         Boolean x = true;
         String expResult = "actualizar";
-        int result = ObtenerAccion.accion(n, x);
+        String result = ObtenerAccion.accion(n, x);
         assertEquals(expResult, result);
     }
     
