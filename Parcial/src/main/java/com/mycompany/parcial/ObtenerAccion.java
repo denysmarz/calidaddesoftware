@@ -14,9 +14,15 @@ public class ObtenerAccion {
             System.out.println(x);
             if(x == true){
                 return "actualizar";
-            } else {
+            } 
+        }else{
+            if(x == true){
+                return "matricular";
             }
+            
         }
+        
+        
         return "ERROR";
     }
 }
