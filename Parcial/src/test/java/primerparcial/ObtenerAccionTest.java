@@ -36,5 +36,14 @@ public class ObtenerAccionTest {
         String result = ObtenerAccion.accion(n, x);
         assertEquals(expResult, result);
     }
+    @Test
+    public void testAccion3() {
+       
+        String n = "porConfirmar";
+        Boolean x = true;
+        String expResult = "actualizar";
+        String result = ObtenerAccion.accion(n, x);
+        assertEquals(expResult, result);
+    }
     
 }
