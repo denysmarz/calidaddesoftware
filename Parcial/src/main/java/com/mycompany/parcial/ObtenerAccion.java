@@ -18,8 +18,20 @@ public class ObtenerAccion {
         }else{
             if(x == true){
                 return "matricular";
-            }
-            
+            } 
+        }
+        
+        
+        
+        return "ERROR";
+    }
+    public static String accion2(String n,boolean x){
+        
+        if("porConfirmar".equals(n)){
+            System.out.println("");
+            if(x == true){
+                return "actualizar";
+            } 
         }
         
         

@@ -42,7 +42,7 @@ public class ObtenerAccionTest {
         String n = "porConfirmar";
         Boolean x = true;
         String expResult = "actualizar";
-        String result = ObtenerAccion.accion(n, x);
+        String result = ObtenerAccion.accion2(n, x);
         assertEquals(expResult, result);
     }
     
