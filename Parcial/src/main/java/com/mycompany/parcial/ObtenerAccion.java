@@ -32,6 +32,10 @@ public class ObtenerAccion {
             if(x == true){
                 return "actualizar";
             } 
+        }else{
+            if("vigente".equals(n)){
+                return "matricular";
+            }
         }
         
         
