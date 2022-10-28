@@ -37,4 +37,14 @@ public class ObtenerAccion {
         
         return "ERROR";
     }
+    public static String accion3(String n,boolean x){
+        
+        if("externo".equals(n)){
+            System.out.println("");
+            if(x == true){
+                return "registrar";
+            } 
+        } 
+        return "ERROR";
+    }
 }

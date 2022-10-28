@@ -45,5 +45,14 @@ public class ObtenerAccionTest {
         String result = ObtenerAccion.accion2(n, x);
         assertEquals(expResult, result);
     }
+    @Test
+    public void testAccion4() {
+       
+        String n = "externo";
+        Boolean x = true;
+        String expResult = "registrar";
+        String result = ObtenerAccion.accion3(n, x);
+        assertEquals(expResult, result);
+    }
     
 }
